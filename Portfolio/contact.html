@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <title> Contact Me </title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+    <hr/>
+    <nav>
+      <a href = "index.html">Home </a>
+    </nav>
+    <h2> Information Request </h2>
+    <form action="submit.html" method ="Post">
+    <label for = "firstName"> First Name: </label> <br/>
+    <input type = "text" id="firstName" name="firstName"><br/>
+
+    <label for="lastName"> Last Name:</label><br/>
+    <input type = "text" id="lastName" name="lastName"><br/>
+
+    <label for ="phone"> Phone Number: </label><br/>
+    <input type = "text" id ="phone" name="phone"> <br/><br/>
+
+    <label for="contact">  Best time to call: </label><br>
+    <select id ="contact" name="contact">
+    <option value = "default" selected>--Select One--</option>
+    <option value = "morning"> Morning (8am to 12pm Eastern) </option>
+    <option value = "afternoon"> Afternoon (12pm to 5pm Eastern)</option>
+    <option value = "evening">Evening (5pm to 8pm Eastern)</option>
+    </select>
+
+    <fieldset>
+    <legend> I am interested in (check all that apply) <legend><br/>
+    <label for "frontEnd"> Front End Web Development</label>
+    <input type="checkbox" id="frontEnd" name = "interest"
+    </fieldset>
+    <footer>
+
+    </footer>
+  </body>
+</html>
